@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SubiteSV</string>
+    <string name="CorreoContraInvalidos">El correo o constraseña ingresados son incorrectos</string>
+    <string name="InicioSeccionExitoso">El inicio de sesión se realizó exitosamente</string>
+    <string name="CorreoContraObligatorios">El correo y la contraseña son obligatorios</string>
+    <string name="ContrasenaMayora6Digitos">La contraseña debe tener más de 6 caracteres</string>
+    <string name="IngreseTodoslosCampos">Debe completar todos los campos, para poder registrarse</string>
+    <string name="NosePudoRegistrar">No se pudo registrar el usuario, revise los datos ingresados</string>
+    <string name="notificacionEnviada">La notificacion se ha enviado correctamente</string>
+    <string name="notificacionNOEnviada">No se pudo enviar la notificacion</string>
+    <string name="noseEncontroConductor">NO SE ENCONTRO UN CONDUCTOR</string>
+    <string name="nosePudoenviarNotificacionConductorNotieneToken">NO se pudo enviar la notificacion porque el conductor no tiene un token de inicio de sesion</string>
+    <string name="viajeNoAceptado">El conductor no acepto el viaje</string>
+    <string name="IniciaeViaje">Iniciar Viaje</string>
+    <string name="TerminarViaje">Finalizar Viaje</string>
+    <string name="PosicionCliente">Estas Cerca a la posicion del cliente</string>
+    <string name="PosicionLejos">Debes estar mas cerca de la posicion del cliente</string>
+
+</resources>

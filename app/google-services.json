@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "43589096317",
+    "project_id": "transporteapp-882b5",
+    "storage_bucket": "transporteapp-882b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43589096317:android:a93bf4b2ade5e420903214",
+        "android_client_info": {
+          "package_name": "com.ksp.subitesv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43589096317-j80i26efbhanevf9tjtdr4eo9pe81j6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ksp.subitesv",
+            "certificate_hash": "55f891888c89bfe5b5ef7e81f9dba18d6b025d62"
+          }
+        },
+        {
+          "client_id": "43589096317-cb6dm2uu257fovaa88rfqdd5hb12vhao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkNxmGSHpZ0riUpYYmbCxRl6erocLh4Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43589096317-cb6dm2uu257fovaa88rfqdd5hb12vhao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

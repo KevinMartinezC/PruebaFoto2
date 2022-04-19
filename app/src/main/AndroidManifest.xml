@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ksp.subitesv">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SubiteSV">
+        <activity
+            android:name=".actividades.cliente.ActualizarPerfilActivity" android:parentActivityName=".actividades.cliente.MapClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.conductor.NotificacionReservaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.cliente.CalificacionConductorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.conductor.CalificacionClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.conductor.MapReservaConductorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.cliente.MapReservaClienteActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receptores.AceptarReceptores"
+            android:enabled="true" />
+        <receiver
+            android:name=".receptores.CancelarReceptor"
+            android:enabled="true" />
+
+        <service
+            android:name=".services.MensajeriaClienteFirebase"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".actividades.cliente.SolicitarConductorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.cliente.DetallesSolicitudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.conductor.MapaConductorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.cliente.MapClienteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actividades.LoginActivity"
+            android:parentActivityName=".actividades.SeleccionAutenticacionActivity" />
+        <activity
+            android:name=".actividades.cliente.RegistroActivity"
+            android:parentActivityName=".actividades.SeleccionAutenticacionActivity" />
+        <activity
+            android:name=".actividades.SeleccionAutenticacionActivity"
+            android:exported="false"
+            android:parentActivityName=".actividades.MainActivity" />
+        <activity
+            android:name=".actividades.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>
